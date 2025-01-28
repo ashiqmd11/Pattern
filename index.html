@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <title>signup page </title>
+    <body style="background-color: cadetblue;">
+        <h1><center>SIGN-UP PAGE</center></h1>
+        <center>
+        <form>
+            <label for="hello1"><b>Enter Your Name:</b></label>
+            <input type="text" id="hello1" name="name" title="Enter only Alphabets" placeholder="Enter Your Name" pattern="[a-zA-Z]+" required><br><br>
+            <label for="hello2"><b>Enter Your Email:</b></label>
+            <input type="email" id="hello2" name="email" title="Enter valid mail" placeholder="Enter Your email" pattern="[a-zA-Z0-9]+@[a-z]+\.[a-z]{3}" required><br><br>
+            <label for="hello3"><b>Enter Your mobile number:</b></label>
+            <input type="text" id="hello3" name="country_code" pattern="[0-9]{10}" title="valid mobile num" placeholder="+91"><br><br>
+            <label for="hi1"><b>Gender</b></label>
+            <select id="hi1" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select><br><br>
+            <label for="hello4"><b>Enter password:</b></label>
+            <input type="password" id="hello4" name="password" title="Enter valid password" placeholder="Enter Your Password" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*()])" required><br><br>
+            <label for="hello5"><b>Enter Confirm password:</b></label>
+            <input type="password" id="hello5" name="Confirm password" title="Enter Confirm password" placeholder="Enter Confirm Password" required><br><br>
+            <label for="hello6"><b>Enter Permenant Adress:</b></label><br>
+            <textarea name="adress" id="hello6" name="adress" title="Enter Adress here" rows="3" cols="20"></textarea><br><br>
+            <button>SIGNUP</button><br><br
+            <label for="" ><b>Already an user ?</b></label>
+            <button type="submit" formaction="task1.html" style="background-color:aquamarine;">LOG-IN</button></center>
+        </form>
+    </body>
+</html>

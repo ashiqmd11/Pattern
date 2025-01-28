@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <title>task2</title>
+    <body style="background-color: aquamarine;">
+        <h1><center>RESET PASSWORD</center></h1>
+        <center>
+        <form>
+            <label for="k1">Enter your Email :</label>
+            <input type="email" id="k1" name="email" title="Enter valid mail" placeholder="Enter Your Email" required><br><br>
+            <label for="k2">Enter New Password</label>
+            <input type="password" id="k2" name="password" title="Password must be at least 8 characters long, contain at least one uppercase letter, one lowercase letter, one number, and one special character" placeholder="Enter New Password"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*])[0-9a-zA-Z!@#$%^&*]{8,}" required><br><br>
+            <lable for="k3">Confirm New Password</lable>
+            <input type="password" id="k3" name="confirm_password" placeholder="Confirm Password" title="Confirm your password" required>
+            <button style="background-color: blueviolet;">SUBMIT</button>
+        </form></center>
+    </body></html>
